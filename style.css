@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrap .back{
+cursor: pointer;
+}
+
+.wrap .menu{
+cursor: pointer;
+}
+
+.search {
+  width: 50%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 540px){
+.wrap{
+    display: flex;
+}
+body{
+    font-size: 19px;
+}
+}
+
+
+
+
+
+
+/* Info Section CSS */
+
+.inf{
+    width: 100%;
+    height: 4px;
+    border-radius: 12px;
+    background: #9e9e9e87;
+}
+
+.info{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -20px;
+}
+
+.info .info-header{
+    color: black;
+    font-size: 23px;
+}
+.info-txt span{
+    color: #10aff0;
+}
+
+
+
+
+
+
+
+
+
+/* Post */
+.posted .posted-txt{
+    display: flex;
+}
+
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-1{
+    display: flex;
+    align-items: center;
+    flex: auto;
+}
+
+.col-1 .logo-txt{
+    line-height: 10px;
+}
+
+.logo-txt .browser img{
+    width: 13px;
+    height: 13px;
+    margin: -1px;
+    margin-left: 2px;
+}
+
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-txt a{
+    text-decoration: none;
+    color: lightslategray;
+}
+
+
+.section a{
+text-decoration: none;
+color: lightslategray;
+}
+
+
+
+.col-11{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: mediumturquoise;
+}
+
+
+.col-img{
+    float: left;
+}
+.col-2{
+    display: flex;
+    padding: 12px;
+    justify-content: flex-end;
+}
+.col-3 , .col-4{
+    float: right;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* Chat button */
+
+#chat {
+    position: fixed;
+    bottom: 42px;
+    right: 30px;
+    z-index: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ab1 .img1{
+    /* background-color: mediumturquoise; */
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.ab1 .img2{
+    position: absolute;
+    top: 124px;
+    left: 23px;
+    border: 1px solid white;
+    background: white;
+}
+
+/* .ab1::before{
+    content: '';
+    background-image: url('img/contact-bg.jpg');
+    position: absolute;
+} */
+
+.ab2{
+    display: flex;
+}
+
+.ab2 img{
+    border: 1px solid white;
+}
